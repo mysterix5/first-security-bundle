@@ -1,6 +1,8 @@
 [submodule "backend"]
 	path = backend
 	url = git@github.com:mysterix5/first-security-backend.git
+	main = main
 [submodule "frontend"]
 	path = frontend
 	url = git@github.com:mysterix5/first-security-frontend.git
+	main = main
