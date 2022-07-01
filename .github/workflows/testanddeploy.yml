@@ -59,6 +59,8 @@ jobs:
       HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - uses: actions/download-artifact@v2
         with:
           name: FirstSecurity.jar  #Must be the same as 'finalName' in pom.xml
