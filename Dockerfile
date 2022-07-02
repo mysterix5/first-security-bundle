@@ -1,6 +1,7 @@
 FROM openjdk:18
 
-LABEL Thomas="lukasduechting@mailbox.org"
+LABEL Lukas="lukasduechting@mailbox.org"
+ENV ENVIRONMENT=prod
 
 ADD backend/target/FirstSecurity.jar FirstSecurity.jar
 
